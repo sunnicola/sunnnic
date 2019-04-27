@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset=utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title> SUNNIC Creative Portfolio Home </title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Homemade+Apple|Courier New" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- SLICK CAROUSEL -->
+            <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+            <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        </head>
+        <body>
+
+<!-- HEADER --> 
+      <div class = "header">
+        <a href = "index.html">Sunnnic</a>
+        </div>
+
+<!-- HEADER + NAV BAR -->
+      <div class = "navbar">
+        <a href="about.html">BIO</a>
+      <div class="dropdown">
+        <button class="dropbtn">GALLERY</button>
+        <div class="dropdown-content">
+          <a href="index.html">Home</a> 
+          <a href="street.html">Street</a>
+          <a href="portrait.html">Portrait</a>
+          <a href="architecture.html">Architecture</a>
+        </div>
+      </div>
+    </div>
+
+<!-- CAROUSEL SLIDER -->
+      <div class= "slick-slider">
+          <div><img src="images/arc2.jpg" alt = "carousel image"></div>
+          <div><img src="images/cny3.jpg" alt = "carousel image"></div>
+          <div><img src="images/portrait.jpg" alt = "carousel image"></div>
+          <div><img src="images/nature.jpg" alt = "carousel image"></div>
+          </div>
+
+                <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+                <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                <script type="text/javascript" src="slick/slick.min.js"></script>
+
+           <script type="text/javascript">
+            $(document).ready(function (){           
+            $('.slick-slider').slick({
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 4000,
+            });
+              });
+          </script>
+
+<!-- FOOTER -->
+          <div class="footer">
+            <p>Copyright 2019 by Nicola Sun</p>
+              <div class="icon-bar">
+                <!-- Include email, linkedin, instagram icon -->
+                <a href="https://www.instagram.com/sunnnic/?hl=en"><i class="fa fa-instagram"></i></a> 
+                <a href="https://www.linkedin.com/in/nicolasun/"><i class="fa fa-linkedin"></i></a> 
+                <a href="mailto:nicolajsun@gmail.com"><i class="fa fa-envelope"></i></a> 
+            </div>
+          </div>
+
+        </body> 
+    </html>
